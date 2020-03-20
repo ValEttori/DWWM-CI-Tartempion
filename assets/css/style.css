@@ -1,0 +1,159 @@
+body {
+  margin-left: 210px;
+  margin-right: 210px;
+  background-image: url("../Img/background.jpg");
+  background-position: center center;
+  background-repeat:  no-repeat; /*Permet que le fond reste statique lors du défilement d'une page*/
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #999; /*En cas de problème de chargement de l'image de background, permet que les typographies noires ou blanches soit lisibles*/
+}
+/* Image de haut de page */
+#ImgTartempion {
+  margin-top: 2px;
+  border-radius: 15px;
+  border-width:2px;
+  border-style:solid;
+  border-color:rgba(85, 78, 78, 0.712);
+}
+/* Bannière de page */
+#ImgMaison {
+  margin-top: -15px;
+  margin-bottom: -5px;
+  width: 100%;
+  border-radius: 25px;
+  border-width:2px;
+  border-style:solid;
+  border-color:rgba(85, 78, 78, 0.712);
+}
+/* Bannière de page */
+#flags {
+  float: right;
+  margin-top: 0.5%;
+}
+header {
+  overflow: hidden;
+  clear:both;
+}
+footer {
+  overflow: hidden;
+  clear:both;
+}
+/* Texte de la page d'acceuil */
+#accueil {
+  float:right;
+  width: 60%;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+/* Effets de navigation, header et footer */
+li {
+  display: inline;
+}
+li a {
+  color: white;
+  height:34px;
+  width: 100%;
+}
+li a:hover {
+  background-color: rgb(121, 121, 121);
+  color: white;
+  text-decoration: none;
+}
+/* Tableau */
+table {
+  font-family: "Trebuchet MS";
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+table td, table th {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+td:first-child {
+  background-color: #ffffff; 
+}
+table tr:nth-child(even){
+  background-color: #94bae95e;
+}
+table tr:nth-child(odd){
+  background-color: #9daddb59;
+}
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(58, 58, 58);
+  color: white;
+}
+/* Colonne et Carousel*/
+#colonne {
+  float:left;
+  width: 35%;
+}
+#myCarousel {
+  max-width: 550px;
+  max-height:100%;
+  width: auto;
+  height: inherit;
+  display: block;
+  margin: 0 auto;
+  margin-top: 150px;
+  }
+/* Taille des images dans le tableau */
+#photo {
+max-width: 100px;
+max-height:100px;
+width: auto;
+height: auto;
+}
+/* Formulaire de modification et d'ajout des données*/
+#form {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-right: 25%;
+  margin-left: 25%;
+  border-radius: 20px;
+  background-image: linear-gradient(-90deg, rgba(91, 124, 151, 0.856), rgba(94, 120, 158, 0.829));
+  border-width:2px;
+  border-style:solid;
+  border-color:rgba(68, 88, 114, 0.712);
+  }
+  #form2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 15%;
+  margin-left: 15%;
+  color: white;
+  }
+/* Google Map */
+#map {
+  float: right; 
+  margin-top: 40px;
+  margin-right: 10px;
+ }
+ /* Langues */
+.dropdown {
+  float: right;
+}
+
+
+  /* Responsive */
+  @media only screen and (max-width: 540px){
+    #colonne {
+      display: none;
+    }
+    #accueil {    
+      width: 100%;
+
+    }
+  }
+  @media only screen and (max-width: 1000px){
+    body {
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+  }
+  

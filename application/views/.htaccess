@@ -1,0 +1,7 @@
+AddCharset utf-8 .html .css .php .txt .js
+
+#htaccess file
+<files .htaccess>
+order allow,deny
+deny from all
+</files> 
